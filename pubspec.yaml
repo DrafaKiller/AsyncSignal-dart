@@ -1,5 +1,5 @@
 name: async_signal
-description: Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue at a specific point.
+description: Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue at a specific point. Lock and unlock the flow.
 version: 0.0.1
 homepage: https://github.com/DrafaKiller/AsyncSignal-dart
 
