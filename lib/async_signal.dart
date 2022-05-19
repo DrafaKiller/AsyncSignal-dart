@@ -4,7 +4,9 @@ import 'dart:async';
 
 /// # AsyncSignal
 ///
-/// Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue in a specific point.
+/// Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue at a specific point.
+///
+/// Lock or unlock that flow.
 ///
 /// ## Usage
 ///
