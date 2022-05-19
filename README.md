@@ -2,7 +2,7 @@
 
 Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue at a specific point.
 
-Lock or unlock that flow.
+Lock or unlock the flow.
 
 ## Features
 
