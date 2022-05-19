@@ -1,7 +1,7 @@
-name: async_lock
+name: async_signal
 description: Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue at a specific point.
 version: 0.0.1
-homepage: https://github.com/DrafaKiller/AsyncLock-dart
+homepage: https://github.com/DrafaKiller/AsyncSignal-dart
 
 environment:
   sdk: ">=2.17.0 <3.0.0"

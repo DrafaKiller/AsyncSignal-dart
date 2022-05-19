@@ -1,11 +1,11 @@
-import 'package:async_lock/async_lock.dart';
+import 'package:async_signal/async_signal.dart';
 
 void main() async {
-  final lock = AsyncLock(locked: true);
+  final signal = AsyncSignal(locked: true);
 
   void getIn() async {
-      await lock.wait();
-      print('Finally, I\'m in!');
+    await signal.wait();
+    print('Finally, I\'m in!');
   }
 
   getIn();
@@ -14,7 +14,7 @@ void main() async {
   await Future.delayed(const Duration(seconds: 3));
 
   print('Opening the door...');
-  lock.unlock();
+  signal.unlock();
 }
 
 // [Output]
