@@ -51,7 +51,7 @@ signal.close();
 
 `async_signal` allows you to control a flow, allowing multiple operations to continue at once only when you want, like opening a gate.
 
-If what you're looking for is one by one like a queue, then check out the [`async_signals`](https://pub.dev/packages/async_signals) package.
+If what you're looking for is one by one like a queue, then check out the [`async_locks`](https://pub.dev/packages/async_locks) package.
 
 ## GitHub
 
