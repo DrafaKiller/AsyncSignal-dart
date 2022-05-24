@@ -42,9 +42,9 @@ Wait for the signal to be unlocked, if it's already unlocked you will go right t
 await signal.wait();
 ```
 
-Remove the signal when you're done using it
+Close the signal when you're done using it
 ```dart
-signal.remove();
+signal.close();
 ```
 
 ## Is this what you're looking for?
