@@ -17,7 +17,7 @@ Lock or unlock the flow.
 
 Install it using pub:
 ```
-flutter pub add async_signal
+dart pub add async_signal
 ```
 
 And import the package:
