@@ -2,6 +2,7 @@
 
 Added:
 - **shield.io** badges to `README.md`
+- Package repository and issue tracker to `pubspec.yaml`
 
 Fixed:
 - Improved `.wait()` method, returning `FutureOr<void>` instead of `Future<void>`
