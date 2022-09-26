@@ -1,3 +1,6 @@
+[![Pub.dev package](https://img.shields.io/badge/pub.dev-async_signal-blue)](https://pub.dev/packages/async_signal)
+[![GitHub repository](https://img.shields.io/badge/GitHub-AsyncSignal--dart-blue?logo=github)](https://github.com/DrafaKiller/AsyncSignal-dart)
+
 # Async Signal
 
 Control the flow of asynchronous operations by signaling all the waiting tasks whether they should wait or continue at a specific point.
@@ -51,7 +54,7 @@ signal.close();
 
 `async_signal` allows you to control a flow, allowing multiple operations to continue at once only when you want, like opening a gate.
 
-If what you're looking for is one by one like a queue, then check out the [`async_locks`](https://pub.dev/packages/async_locks) package.
+If what you want is a control flow one by one, like in a queue, then you should check out the [`async_locks`](https://pub.dev/packages/async_locks) package.
 
 ## GitHub
 

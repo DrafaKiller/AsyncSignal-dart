@@ -68,8 +68,8 @@ class AsyncSignal {
   /// ```dart
   /// await signal.wait();
   /// ```
-  Future<void> wait() {
-    if (!locked) return Future.value();
+  FutureOr<void> wait() {
+    if (!locked) return null;
     return stream.firstWhere((locked) => locked == false);
   }
 
