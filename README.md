@@ -1,4 +1,4 @@
-[![Pub.dev package](https://img.shields.io/badge/pub.dev-async_signal-blue)](https://pub.dev/packages/async_signal)
+[![Pub.dev package](https://img.shields.io/badge/pub.dev-async__signal-blue)](https://pub.dev/packages/async_signal)
 [![GitHub repository](https://img.shields.io/badge/GitHub-AsyncSignal--dart-blue?logo=github)](https://github.com/DrafaKiller/AsyncSignal-dart)
 
 # Async Signal
